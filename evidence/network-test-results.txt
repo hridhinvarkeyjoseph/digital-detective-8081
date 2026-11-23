@@ -1,0 +1,15 @@
+DIGITAL DETECTIVE — NETWORK TEST RESULTS
+
+Test 1: Internet Connectivity
+Command: ping -c 4 example.com
+Result: 4 packets transmitted, 4 received.
+Packet loss: 0%
+Average response time: 13.552 ms
+Status: PASS
+
+Test 2: DNS Lookup
+Command: nslookup example.com
+DNS server: 8.8.8.8
+Domain: example.com
+Result: DNS returned IP addresses successfully.
+Status: PASS
