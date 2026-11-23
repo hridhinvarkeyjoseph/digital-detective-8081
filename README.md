@@ -1,45 +1,30 @@
+# The Digital Detective
 
-# Mission 00 — Repository Setup
+A beginner-level computer science assignment covering computer fundamentals and practical digital skills.
 
-## Objective
+## Mission Index
+- Mission 00: Repository Setup
+- Mission 01: Computer Basics
+- Mission 02: Terminal and File Operations
+- Mission 03: Operating Systems
+- Mission 04: Programs and Programming
+- Mission 05: Number Systems and Data
+- Mission 06: Git and GitHub
+- Mission 07: Computer Networking
+- Mission 08: Final Report
 
-Create a project repository for the Digital Detective assignment.
+## Topics Covered
+IPOS, hardware, software, Terminal commands, operating systems, processes, Python, number systems, text encoding, version control, GitHub, and networking.
 
-## Work Completed
+## Run the Python Programs
+Run the Hello World program:
+`python3 mission-04-programs/hello.py`
 
-- Created the main project folder.
-- Created separate folders for all missions.
-- Created README files for each mission.
-- Created the Python program files.
-- Created an evidence folder.
-- Created the main README file.
+Run the number converter:
+`python3 mission-05-numbers-data/number_converter.py`
 
-## Commands Used
+## Learning Summary
+The assignment introduces the basic concepts and tools used in computer science. Each mission has its own folder and README file.
 
-```bash
-mkdir -p mission-00-setup
-touch README.md
-find . -maxdepth 2 -print | sort
-```
-
-## What I Learned
-
-I learned how to create folders and files using Terminal.
-
-I also learned how to organize a project into separate folders.
-
-## Difficulties
-
-The `code .` command did not work in Terminal.
-
-## How I Resolved Them
-
-I opened the project in PyCharm and used its editor to edit the files.
-
-## Evidence
-
-The project folder structure and README file.
-
-## Commit Details
-
-To be added after the Git commit.
+## Version Control
+The project uses Git commits to record changes and GitHub to host the repository.
