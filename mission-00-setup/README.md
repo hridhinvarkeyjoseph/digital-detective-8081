@@ -18,12 +18,16 @@ Create a project repository for the Digital Detective assignment.
 - mkdir -p
 - touch
 - find . -maxdepth 2 -print | sort
+- git init
+- git add .
+- git commit
+- git push
 
 ## What I Learned
 
 I learned how to create folders and files using Terminal.
 
-I also learned how to organize a project into separate folders.
+I also learned how to organize a project into separate folders and upload it to GitHub.
 
 ## Difficulties
 
@@ -31,12 +35,14 @@ The code . command did not work in Terminal.
 
 ## How I Resolved Them
 
-I opened the project in PyCharm and used its editor to edit the files.
+I used Terminal commands and PyCharm to create and edit the project files.
 
 ## Evidence
 
-The project folder structure and README file.
+The project folder structure and README file on GitHub.
 
 ## Commit Details
 
-To be added after the Git commit.
+Initial repository setup commit: f0df074
+
+The repository structure was committed and pushed to GitHub.
