@@ -24,4 +24,4 @@ Used the Python 3 command followed by the file name.
 - `hello.py`
 
 ## Commit Details
-To be added after committing this mission.
+This mission documentation was included in commit 2c7a113 on the main branch. Additional updates were included in commit 2c3bdfe on update-about and merged into main.

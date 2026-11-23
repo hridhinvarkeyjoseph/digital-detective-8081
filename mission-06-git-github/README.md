@@ -31,4 +31,4 @@ Git manages version history. GitHub hosts repositories and supports collaboratio
 The project repository and its commit history on GitHub.
 
 ## Commit Details
-To be added after committing this mission.
+This mission documentation was included in commit 2c7a113 on the main branch. Additional updates were included in commit 2c3bdfe on update-about and merged into main.

@@ -28,4 +28,4 @@ A program is stored instructions. A process is that program while it is running.
 This README contains the operating-system notes and command examples.
 
 ## Commit Details
-To be added after committing this mission.
+This mission documentation was included in commit 2c7a113 on the main branch. Additional updates were included in commit 2c3bdfe on update-about and merged into main.
