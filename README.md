@@ -28,3 +28,7 @@ The assignment introduces the basic concepts and tools used in computer science.
 
 ## Version Control
 The project uses Git commits to record changes and GitHub to host the repository.
+
+## About This Update
+
+This update adds verified Python test results, number conversion examples, and assignment evidence. It is maintained on the update-about branch.

@@ -33,3 +33,31 @@ Compared the value 10 in four number systems.
 
 ## Commit Details
 To be added after committing this mission.
+
+## Manual Number Conversion Examples
+
+### Example 1: Decimal 10 to Binary
+10 ÷ 2 = 5 remainder 0
+5 ÷ 2 = 2 remainder 1
+2 ÷ 2 = 1 remainder 0
+1 ÷ 2 = 0 remainder 1
+
+Read the remainders from bottom to top.
+Answer: 1010
+
+### Example 2: Decimal 10 to Octal
+10 ÷ 8 = 1 remainder 2
+1 ÷ 8 = 0 remainder 1
+
+Read the remainders from bottom to top.
+Answer: 12
+
+### Example 3: Decimal 10 to Hexadecimal
+10 in hexadecimal is A.
+Answer: A
+
+### Verification
+The Python converter returned the same results:
+Binary: 1010
+Octal: 12
+Hexadecimal: A
