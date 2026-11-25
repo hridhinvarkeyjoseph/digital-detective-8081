@@ -4,31 +4,48 @@
 Understand how to use the command-line interface to manage files and folders.
 
 ## Work Completed
-Documented basic Terminal commands, command options, pipes, and package managers.
+Practised basic Terminal commands, explored command options, learned how pipes work, and studied package managers.
 
 ## Commands/Tools Used
-- `pwd` — shows the current folder.
-- `ls` — lists files and folders.
-- `ls -la` — lists hidden files and details.
-- `cd foldername` — changes the current folder.
-- `mkdir foldername` — creates a folder.
-- `touch file.txt` — creates an empty file.
-- `cat file.txt` — displays file contents.
-- `find . -maxdepth 2 -print` — lists items in the current folder.
-- `command1 | command2` — sends the output of one command to another command.
-- `ls -l` — uses the `-l` option to show detailed information.
+
+| Command | Purpose |
+|---|---|
+| `pwd` | Shows the current folder |
+| `ls` | Lists files and folders |
+| `ls -la` | Lists all files, including hidden files |
+| `cd foldername` | Changes the current folder |
+| `mkdir foldername` | Creates a new folder |
+| `touch file.txt` | Creates an empty file |
+| `cat file.txt` | Displays file contents |
+| `find . -maxdepth 2 -print` | Lists items up to two folder levels deep |
+| `ls -l` | Displays detailed file information |
+
+### Additional Concepts
+
+- **Command options:** Modify how a command works. For example, `ls -l` displays detailed information.
+- **Pipes:** Send the output of one command to another.
+
+Example:
+`ls | sort`
+
+This lists files and sorts their names.
+
+- **Package managers:** Tools used to install and update software. Examples include Homebrew on macOS and APT on Debian-based Linux.
+
+Example:
+`brew install wget`
 
 ## What I Learned
-Terminal accepts text commands. A command option changes how a command works. A pipe sends output from one command to another. A package manager installs and updates software. Examples include Homebrew on macOS and APT on Debian-based Linux.
+Terminal allows users to interact with the operating system using text commands. I learned how to navigate folders, create files and directories, view file contents, and understand command options and pipes.
 
 ## Difficulties
-Remembering command names and their purpose.
+Remembering command names and understanding their purposes.
 
 ## How I Resolved Them
-Used a short list of commands and their descriptions.
+Created a short reference list of commands and practised understanding what each command does.
 
 ## Evidence/Files
-This README contains the command reference.
+This README contains the command reference and examples.
 
 ## Commit Details
 This mission documentation was included in commit 2c7a113 on the main branch. Additional updates were included in commit 2c3bdfe on update-about and merged into main.
