@@ -1,63 +1,52 @@
 # Mission 05 — Number Systems and Data
 
 ## Objective
-Understand number systems, perform conversions, and learn about text encoding.
+Understand different number systems, perform conversions, and learn how computers represent text.
 
 ## Work Completed
-Documented examples of decimal, binary, octal, and hexadecimal numbers. Created a Python number converter.
+Studied decimal, binary, octal, and hexadecimal number systems. Practised manual conversions and verified the results using Python. Also explored character encoding.
 
 ## Commands/Tools Used
-- `python3 number_converter.py` — runs the converter.
+
+| Command | Purpose |
+|---|---|
+| `python3 number_converter.py` | Runs the number conversion program |
 
 ## What I Learned
-Decimal uses digits 0–9 and has base 10.
-Binary uses 0 and 1 and has base 2.
-Octal uses digits 0–7 and has base 8.
-Hexadecimal uses 0–9 and A–F and has base 16.
 
-Examples:
-- Decimal 10 = Binary 1010
-- Decimal 10 = Octal 12
-- Decimal 10 = Hexadecimal A
+### 1. Number Systems
 
-Text encoding represents characters as numbers. ASCII represents a basic set of characters. Unicode supports characters from many languages.
+| Number System | Base | Digits Used |
+|---|---:|---|
+| Decimal | 10 | 0–9 |
+| Binary | 2 | 0–1 |
+| Octal | 8 | 0–7 |
+| Hexadecimal | 16 | 0–9 and A–F |
 
-## Difficulties
-Understanding why different number systems represent the same value differently.
+### 2. Manual Conversion
 
-## How I Resolved Them
-Compared the value 10 in four number systems.
+I converted decimal number 10 into other number systems.
 
-## Evidence/Files
-- `number_converter.py`
+- Binary: 1010
+- Octal: 12
+- Hexadecimal: A
 
-## Commit Details
-This mission documentation was included in commit 2c7a113 on the main branch. Additional updates were included in commit 2c3bdfe on update-about and merged into main.
+**Binary conversion using repeated division:**
 
-## Manual Number Conversion Examples
+10 ÷ 2 = 5 remainder 0  
+5 ÷ 2 = 2 remainder 1  
+2 ÷ 2 = 1 remainder 0  
+1 ÷ 2 = 0 remainder 1  
 
-### Example 1: Decimal 10 to Binary
-10 ÷ 2 = 5 remainder 0
-5 ÷ 2 = 2 remainder 1
-2 ÷ 2 = 1 remainder 0
-1 ÷ 2 = 0 remainder 1
+Reading the remainders from bottom to top gives `1010`.
 
-Read the remainders from bottom to top.
-Answer: 1010
+### 3. Python Verification
 
-### Example 2: Decimal 10 to Octal
-10 ÷ 8 = 1 remainder 2
-1 ÷ 8 = 0 remainder 1
+I used Python to verify the conversions:
 
-Read the remainders from bottom to top.
-Answer: 12
+```python
+number = 10
 
-### Example 3: Decimal 10 to Hexadecimal
-10 in hexadecimal is A.
-Answer: A
-
-### Verification
-The Python converter returned the same results:
-Binary: 1010
-Octal: 12
-Hexadecimal: A
+print(bin(number))
+print(oct(number))
+print(hex(number))
