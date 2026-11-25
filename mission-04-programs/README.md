@@ -1,27 +1,29 @@
 # Mission 04 — Programs and Programming
 
 ## Objective
-Run a simple Python program and compare compilers and interpreters.
+Understand what computer programs are and learn how to write and run a simple Python program.
 
 ## Work Completed
-Created a Python Hello World program.
+Created a basic Python program that displays a message on the screen. Studied the differences between compilers and interpreters.
 
 ## Commands/Tools Used
-- `python3 hello.py` — runs the Python program.
+
+| Command | Purpose |
+|---|---|
+| `python3 --version` | Checks the installed Python version |
+| `python3 hello.py` | Runs the Python program |
 
 ## What I Learned
-A program is a set of instructions that a computer follows. Python is a programming language.
 
-An interpreter executes program instructions through an interpreter. A compiler translates source code into another form, often machine code, before execution. Both help a computer run programs.
+### 1. What Is a Program?
+A program is a set of instructions written to tell a computer what to do.
 
-## Difficulties
-Running a program from Terminal.
+### 2. Python
+Python is a programming language that is beginner-friendly and widely used in automation, web development, and data science.
 
-## How I Resolved Them
-Used the Python 3 command followed by the file name.
+### 3. Hello World Program
 
-## Evidence/Files
-- `hello.py`
+The following Python code displays a message:
 
-## Commit Details
-This mission documentation was included in commit 2c7a113 on the main branch. Additional updates were included in commit 2c3bdfe on update-about and merged into main.
+```python
+print("Hello, World!")
